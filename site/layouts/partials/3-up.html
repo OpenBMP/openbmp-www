@@ -8,22 +8,28 @@
 
         <div class="flex-ns mhn2-ns">
             <div class="ph2-ns w-100-ns">
-                <div class="ph2-ns center w-40">
-                    <img src="{{.svg1}}" alt="" class="mb4" style="width: 240px">
+                <div class="ph2-ns center w-40 no-link-border">
+                    <a href="{{.button_link1}}">
+                        <img src="{{.svg1}}" alt="" class="mb4" style="width: 240px">
+                    </a>
                 </div>
                 <p>{{.text1}}</p>
             </div>
 
             <div class="ph2-ns w-100-ns">
-                <div class="ph2-ns center w-40">
-                    <img src="{{.svg2}}" alt="" class="mb4" style="width: 240px">
+                <div class="ph2-ns center w-40 no-link-border">
+                    <a href="{{.button_link2}}" class="no-link-border">
+                        <img src="{{.svg2}}" alt="" class="mb4" style="width: 240px">
+                    </a>
                 </div>
                 <p>{{.text2}}</p>
             </div>
 
             <div class="ph2-ns w-100-ns">
-                <div class="ph2-ns center w-40">
-                    <img src="{{.svg3}}" alt="" class="mb4" style="width: 240px">
+                <div class="ph2-ns center w-40 no-link-border">
+                    <a href="{{.button_link3}}" class="no-link-border">
+                        <img src="{{.svg3}}" alt="" class="mb4" style="width: 240px">
+                    </a>
                 </div>
                 <p>{{.text3}}</p>
             </div>
@@ -33,7 +39,7 @@
 
             <div class="ph2-ns w-100-ns">
                 {{ if .button_text1 }}
-                <div class="tc">
+                <div class="tc ">
                     <a href="{{.button_link1}}" class="btn raise">{{.button_text1}}</a>
                 </div>
                 {{ end }}
@@ -74,8 +80,10 @@
 
         <div class="flex-ns mhn2-ns">
             <div class="ph2-ns w-100-ns mb5">
-                <div class="ph2-ns center w-40">
-                    <img src="{{.svg1}}" alt="" class="center db mb3" style="width: 240px">
+                <div class="ph2-ns center w-40 no-link-border">
+                    <a href="{{.button_link1}}">
+                        <img src="{{.svg1}}" alt="" class="center db mb3" style="width: 240px">
+                    </a>
                 </div>
                 <p>{{.text1}}</p>
 
@@ -87,8 +95,10 @@
             </div>
 
             <div class="ph2-ns w-100-ns mb5">
-                <div class="ph2-ns center w-40">
-                    <img src="{{.svg2}}" alt="" class="center db mb3" style="width: 240px">
+                <div class="ph2-ns center w-40 no-link-border">
+                    <a href="{{.button_link2}}">
+                        <img src="{{.svg2}}" alt="" class="center db mb3" style="width: 240px">
+                    </a>
                 </div>
                 <p>{{.text2}}</p>
 
@@ -100,8 +110,10 @@
             </div>
 
             <div class="ph2-ns w-100-ns mb5">
-                <div class="ph2-ns center w-40">
-                    <img src="{{.svg3}}" alt="" class="center db mb3" style="width: 240px">
+                <div class="ph2-ns center w-40 no-link-border">
+                    <a href="{{.button_link3}}">
+                        <img src="{{.svg3}}" alt="" class="center db mb3" style="width: 240px">
+                    </a>
                 </div>
                 <p>{{.text3}}</p>
 
