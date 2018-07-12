@@ -10,8 +10,8 @@ Quick Start
 
 The fastest way to start using SNAS is to install two Docker containers and configure a router to send BMP data.
 
-1. [Install AIO Container](../install_aio)
+1. [Install AIO Container](/docs/install_aio)
 
-2. [Install SNAS UI](../install_ui)
+2. [Install SNAS UI](/docs/install_ui)
 
-3. [Configure Your Router](../router_config)
+3. [Configure Your Router](/docs/router_config)
