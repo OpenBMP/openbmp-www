@@ -4,7 +4,7 @@ date: 2017-01-04T15:04:10.000Z
 ---
 
 <p>Network data published by the snas.io collector is stored in a MySQL database and developers can directly query the DB.
-    See example MySQL queries <a href="/docs/examples">here</a>.</p>
+    See example MySQL queries [here](examples#mysql-client).</p>
 
 <p><br>Alternatively, the DB supports REST APIs that developers can use to query the DB. A full list of the
 REST APIs supported can be found <a href="https://github.com/OpenBMP/db_rest">here</a>.</p>
