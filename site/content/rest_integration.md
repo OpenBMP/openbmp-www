@@ -10,10 +10,10 @@ Alternatively, the DB supports REST APIs that developers can use to query the DB
 REST APIs supported can be found [here](https://github.com/OpenBMP/db_rest).
 
 All queries have the following JSON syntax/output:
-![Example](/img/json_format_for_website.png)
+<img src="/img/json_format_for_website.png" alt="" class="left db mb1" style="width: 740px">
 
 Below is an example DB response to a GET for count of BGP peers by type (GET /db_rest/v1/peer/type/count)-
-![Example](/img/json_output_for_website.png)
+<img src="/img/json_output_for_website.png" alt="" class="left db mb1" style="width: 740px">
 
 The REST interface provide multiple APIs to get filtered data about BGP peers and prefixes in widely
 adopted JSON format - a flexible and extensible alternative to MySQL queries or using Kafka data from the message bus directly!
