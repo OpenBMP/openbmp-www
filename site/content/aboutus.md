@@ -27,7 +27,7 @@ Email | Details
 Contributions can be made via pull requests on github. 
 
 * [SNAS Github](https://github.com/snas)
-* [OpenBMP Github](https://github.com/snas)
+* [OpenBMP Github](https://github.com/openbmp)
 
 
 

@@ -3,7 +3,7 @@ title: "Examples"
 date: 2017-01-04T15:04:10.000Z
 ---
 
-Below are some examples using both the OpenBMP UI and CLI command line mysql client.  
+Below are some examples using both the OpenBMP UI and CLI command line MySQL client.  
 
 <!--more-->
 
@@ -16,12 +16,12 @@ UI Screenshots
 ================
  
 ## Top 20 Prefixes updated and withdrawn
-Time period customizable
+Time period customizable.
 ![](/img/docs/top20.png "Top 20 prefixes updated/withdrawn")
 
 
 ## Peer Info
-Similar to ```show bgp neighbor```, which includes the TCP session and capabilities 
+Similar to ```show bgp neighbor```, which includes the TCP session and capabilities. 
 ![](/img/docs/peer_info.png "Peer Info")
 
 
@@ -48,19 +48,19 @@ BGP-LS provides the link-state topology for either IS-IS and/or OSPF.  SPF's are
 
 ## RIB
 
-Routing table is maintained per BGP peer (pre and post policy)
+Routing table is maintained per BGP peer (pre and post policy).
 ![](/img/docs/routing_table.png "Routing table")
 
-Per peer Pre and Post policy metrics are tracked over time
+Per peer Pre and Post policy metrics are tracked over time.
 ![](/img/docs/Pre_post_stats.png "Peer pre/post policy stats")
 
 View the history of any prefix. 
 ![](/img/docs/prefix_history.png "Prefix history")
 
-Per peer updates over time
+Per peer updates over time.
 ![](/img/docs/updates_overtime.png "Updates")
 
-Per peer withdrawals over time
+Per peer withdrawals over time.
 ![](/img/docs/withdraws_overtime.png "Withdraws")
 
 
