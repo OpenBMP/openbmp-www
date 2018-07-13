@@ -5,7 +5,7 @@ date: 2017-01-04T15:04:10.000Z
 
 
 <p>Analyze network data using kafkacat and simple linux utilities like awk. In the example below, kafka data is
-    filtered to to show only prefixes originated by AS 300-</p>
+    filtered to show only prefixes originated by AS 300-</p>
 <img src="/img/prefix_orig_as_output_for_website.png" alt="" class="left db mb1" style="width: 740px">
 
 <p>Or use the UI to do a similar analysis of a BGP AS-</p>
